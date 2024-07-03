@@ -7,17 +7,17 @@ const User = ({ user }) => {
     return (
         <div className="user">
             <img src={avatar_url} alt="user" className="avatar" />
+            
             <div className="name-container">
                 <a href={`https://github.com/${login}`}>{name || login}</a>
                 <p>User joined on {`${createDate.getDate()} ${createDate.toLocaleString('en-us', {
                     month: "short",
                 })}${createDate.getFullYear()}`}</p>
             </div>
-            
+
             <div className="profile-info">
                 <p>Public Repositories: </p>
                 <p>{public_repos}</p>
-
             </div>
 
             <div className="profile-info">
