@@ -13,6 +13,7 @@ const User = ({ user }) => {
                     month: "short",
                 })}${createDate.getFullYear()}`}</p>
             </div>
+            
             <div className="profile-info">
                 <p>Public Repositories: </p>
                 <p>{public_repos}</p>
