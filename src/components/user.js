@@ -29,9 +29,6 @@ const User = ({ user }) => {
                 <p>{following}</p>
             </div>
 
-
-
-
         </div>
     );
 };
